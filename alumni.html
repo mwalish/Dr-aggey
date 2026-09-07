@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni &amp; Community - Dr. Aggrey Senior School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style type="text/tailwindcss">
+        .navlinks{ @apply hover:text-yellow-300 font-bold transition }
+        .mobile-link{ @apply block py-2 hover:text-yellow-300 font-bold }
+        .section-header{ @apply text-3xl font-bold text-blue-700 mb-6 }
+        .card{ @apply bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-2xl font-bold">Dr. Aggrey Senior School</a>
+                <button class="md:hidden text-3xl" id="menubtn"><i class="bi bi-list"></i></button>
+                <ul class="hidden md:flex space-x-8">
+                    <li><a href="index.html" class="navlinks">Home</a></li>
+                    <li><a href="about.html" class="navlinks">About</a></li>
+                    <li><a href="academic.html" class="navlinks">Academics</a></li>
+                    <li><a href="facilities.html" class="navlinks">Facilities</a></li>
+                    <li><a href="achievements.html" class="navlinks">Achievements</a></li>
+                    <li><a href="alumni.html" class="navlinks">Alumni</a></li>
+                    <li><a href="news.html" class="navlinks">News</a></li>
+                    <li><a href="admission.html" class="navlinks">Admissions</a></li>
+                    <li><a href="contact.html" class="navlinks">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hidden md:hidden pb-6" id="mobileMenu">
+                <ul class="flex flex-col space-y-4 text-lg">
+                    <li><a href="index.html" class="mobile-link">Home</a></li>
+                    <li><a href="about.html" class="mobile-link">About</a></li>
+                    <li><a href="academic.html" class="mobile-link">Academics</a></li>
+                    <li><a href="facilities.html" class="mobile-link">Facilities</a></li>
+                    <li><a href="achievements.html" class="mobile-link">Achievements</a></li>
+                    <li><a href="alumni.html" class="mobile-link">Alumni</a></li>
+                    <li><a href="news.html" class="mobile-link">News</a></li>
+                    <li><a href="admission.html" class="mobile-link">Admissions</a></li>
+                    <li><a href="contact.html" class="mobile-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section style="background-image: url('static/images/dr.png');" class="bg-cover bg-center min-h-[45vh] flex items-center relative">
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative container mx-auto px-4 text-white text-center">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">Alumni &amp; Community</h1>
+            <p class="mt-4 text-xl md:text-2xl">"Doc Boys" — leaders across every field</p>
+        </div>
+    </section>
+
+    <div class="container mx-auto px-4 py-12 max-w-6xl">
+        <p class="text-lg text-gray-700 mb-12 text-center max-w-3xl mx-auto">
+            Generations of Dr. Aggrey students — affectionately known as "Doc" or "Doc Boys" — have gone on to lead in
+            the judiciary, media, sport, faith, and public office. Their achievements are a source of pride for the
+            entire Wundanyi and Taita Taveta community.
+        </p>
+
+        <h2 class="section-header">Notable Alumni</h2>
+        <div class="grid md:grid-cols-2 gap-6 mb-16">
+            <div class="card flex gap-4 items-start">
+                <i class="bi bi-bank2 text-3xl text-blue-600"></i>
+                <div>
+                    <h3 class="font-bold text-lg">Hon. Justice Msagha Mbogholi</h3>
+                    <p class="text-gray-600 text-sm">Retired Judge, High Court of Kenya</p>
+                </div>
+            </div>
+            <div class="card flex gap-4 items-start">
+                <i class="bi bi-mic text-3xl text-blue-600"></i>
+                <div>
+                    <h3 class="font-bold text-lg">Francis Mutalaki</h3>
+                    <p class="text-gray-600 text-sm">Journalist, KTN</p>
+                </div>
+            </div>
+            <div class="card flex gap-4 items-start">
+                <i class="bi bi-broadcast text-3xl text-blue-600"></i>
+                <div>
+                    <h3 class="font-bold text-lg">Michael Mwandigha</h3>
+                    <p class="text-gray-600 text-sm">Journalist, Pwani FM</p>
+                </div>
+            </div>
+            <div class="card flex gap-4 items-start">
+                <i class="bi bi-award text-3xl text-blue-600"></i>
+                <div>
+                    <h3 class="font-bold text-lg">Willy Ambaka</h3>
+                    <p class="text-gray-600 text-sm">International Rugby Player; professional career in South Africa</p>
+                </div>
+            </div>
+            <div class="card flex gap-4 items-start">
+                <i class="bi bi-dribbble text-3xl text-blue-600"></i>
+                <div>
+                    <h3 class="font-bold text-lg">Zablon Mwale</h3>
+                    <p class="text-gray-600 text-sm">Footballer / Striker, Ushuru FC</p>
+                </div>
+            </div>
+            <div class="card flex gap-4 items-start">
+                <i class="bi bi-book text-3xl text-blue-600"></i>
+                <div>
+                    <h3 class="font-bold text-lg">Bishop Tee</h3>
+                    <p class="text-gray-600 text-sm">Bishop, Praise Chapel, Mombasa</p>
+                </div>
+            </div>
+            <div class="card flex gap-4 items-start">
+                <i class="bi bi-flag text-3xl text-blue-600"></i>
+                <div>
+                    <h3 class="font-bold text-lg">Hon. Austin Mwambi</h3>
+                    <p class="text-gray-600 text-sm">MCA, Wusi/Kishamba Ward</p>
+                </div>
+            </div>
+        </div>
+        <p class="text-xs text-gray-400 -mt-10 mb-16">Source: public news coverage of Dr. Aggrey alumni. The school is encouraged to expand this list with additional notable old boys and, where possible, direct quotes or photos with their permission.</p>
+
+        <h2 class="section-header">Alumni Association</h2>
+        <div class="card mb-12">
+            <p class="text-gray-700">
+                A formal, published "Old Boys Association" contact was not found in public records for this school.
+                Given the strength of the alumni above — including a retired High Court Judge and respected national
+                media figures — we recommend the school formally establish (or publicise, if one already exists) an
+                Alumni Association, with a designated contact person, to support mentorship, fundraising for facility
+                rebuilding, and scholarship opportunities for current students.
+            </p>
+        </div>
+
+        <h2 class="section-header">Community Connection</h2>
+        <div class="card">
+            <p class="text-gray-700">
+                Dr. Aggrey is deeply intertwined with the local Wundanyi community. The school has reported running a
+                <strong>"Community Class"</strong> initiative that uses affirmative action to admit talented boys from
+                local primary schools who may have narrowly missed the standard national cut-off scores — a model of
+                inclusive access in a historically marginalized county.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="bg-blue-600 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div>
+                    <h1 class="font-bold text-lg md:text-2xl mb-3">Dr. Aggrey Senior School</h1>
+                    <p class="font-light text-xs md:text-sm leading-relaxed">A National School in Wundanyi, Taita Taveta County. Elimu na Maendeleo — Education and Development.</p>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg md:text-xl mb-4">Quick Links</h1>
+                    <ul class="space-y-2 text-xs md:text-sm">
+                        <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+                        <li><a href="about.html" class="hover:text-yellow-400 transition">About</a></li>
+                        <li><a href="academic.html" class="hover:text-yellow-400 transition">Academics</a></li>
+                        <li><a href="admission.html" class="hover:text-yellow-400 transition">Admissions</a></li>
+                        <li><a href="contact.html" class="hover:text-yellow-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg md:text-xl mb-4">More</h1>
+                    <ul class="space-y-2 text-xs md:text-sm">
+                        <li><a href="facilities.html" class="hover:text-yellow-400 transition">Facilities</a></li>
+                        <li><a href="achievements.html" class="hover:text-yellow-400 transition">Achievements</a></li>
+                        <li><a href="alumni.html" class="hover:text-yellow-400 transition">Alumni</a></li>
+                        <li><a href="news.html" class="hover:text-yellow-400 transition">News &amp; Events</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="font-bold text-lg md:text-xl mb-3">Follow Us</h2>
+                    <div class="flex space-x-4 text-xl md:text-2xl">
+                        <i class="bi bi-facebook hover:text-yellow-400 cursor-pointer transition"></i>
+                        <i class="bi bi-instagram hover:text-yellow-400 cursor-pointer transition"></i>
+                        <i class="bi bi-twitter hover:text-yellow-400 cursor-pointer transition"></i>
+                        <i class="bi bi-youtube hover:text-yellow-400 cursor-pointer transition"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-blue-700 py-4 text-center text-white text-sm">
+        <p>&copy; 2026 Dr. Aggrey Senior School. All Rights Reserved.</p>
+    </section>
+    <script>
+        const menubtn = document.getElementById("menubtn");
+        const mobileMenu = document.getElementById("mobileMenu");
+        menubtn.addEventListener("click", () => { mobileMenu.classList.toggle("hidden"); });
+    </script>
+</body>
+</html>

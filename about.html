@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dr. Aggrey Senior School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style type="text/tailwindcss">
+        .navlinks{ @apply hover:text-yellow-300 font-bold }
+        .mobile-link{ @apply block py-2 hover:text-yellow-300 font-bold }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="text-white shadow-lg sticky top-0 z-50" style="background: linear-gradient(90deg, #2563eb 0%, #ffffff 100%);">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-xl font-bold">Dr. Aggrey Senior School</a>
+                <button class="md:hidden text-3xl" id="menubtn">
+                    <i class="bi bi-list"></i>
+                </button>
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="index.html" class="navlinks">Home</a></li>
+                    <li><a href="about.html" class="navlinks">About</a></li>
+                    <li><a href="academic.html" class="navlinks">Academics</a></li>
+                    <li><a href="facilities.html" class="navlinks">Facilities</a></li>
+                    <li><a href="achievements.html" class="navlinks">Achievements</a></li>
+                    <li><a href="alumni.html" class="navlinks">Alumni</a></li>
+                    <li><a href="news.html" class="navlinks">News</a></li>
+                    <li><a href="admission.html" class="navlinks">Admissions</a></li>
+                    <li><a href="contact.html" class="navlinks">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hidden md:hidden pb-6" id="mobileMenu">
+                <ul class="flex flex-col space-y-4 text-lg">
+                    <li><a href="index.html" class="mobile-link">Home</a></li>
+                    <li><a href="about.html" class="mobile-link">About</a></li>
+                    <li><a href="academic.html" class="mobile-link">Academics</a></li>
+                    <li><a href="facilities.html" class="mobile-link">Facilities</a></li>
+                    <li><a href="achievements.html" class="mobile-link">Achievements</a></li>
+                    <li><a href="alumni.html" class="mobile-link">Alumni</a></li>
+                    <li><a href="news.html" class="mobile-link">News</a></li>
+                    <li><a href="admission.html" class="mobile-link">Admissions</a></li>
+                    <li><a href="contact.html" class="mobile-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <!-- Hero Section -->
+    <section style="background-image: url('static/images/dr.png');"
+             class="bg-cover bg-center min-h-[95vh] mb-2 flex items-center relative ">
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative container mx-auto px-4 text-white text-center">
+            <!-- <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
+                welcome to Dr. Aggrey Senior School
+            </h1> -->
+
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="container mx-auto py-12 px-4">
+        <div class="max-w-full mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Story</h2>
+
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                <strong>History &amp; Inspiration:</strong> Dr. Aggrey Senior School was established in Wundanyi in the years following Kenya's independence, in what was then a marginalized part of the former Coast Province. The school is named in honour of <strong>Dr. James Emman Kwegyir Aggrey</strong> (1875–1927), a US-trained Ghanaian missionary and educationist celebrated for his belief that "nothing but the best is good enough for Africa," and for his role in co-founding Achimota College in Ghana. Generations of students here have affectionately been known as <strong>"Doctarians" or "The might docta"</strong>
+            </p>
+            <!-- <p class="text-sm text-gray-400 italic mb-6">Note to administration: independent research places the founding year at 1951, while school tradition has cited 1961. We recommend confirming the exact year against school/Board of Governors archives so a single date can be published with confidence.</p> -->
+
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                <strong>National School Elevation:</strong> In a historic milestone on <strong>26 July 2025</strong>, the institution was officially elevated to <strong>National School</strong> status, in recognition of its stellar trajectory in both sports and academic performance — a moment celebrated with a public inauguration ceremony attended by area leaders.
+            </p>
+
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                <strong>Enrolment &amp; Structure:</strong> The school hosts a student population of roughly <strong>2,000 students</strong>. Under Kenya's transition to the Competency-Based Curriculum (CBC), it operates as a Senior School catering to <strong>Grades 10, 11, and 12</strong>, offering the STEM, Social Sciences, and Arts &amp; Sports Science pathways. Its official KNEC examination code is <strong>1101101</strong> (UIC: FV6C).
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">Our Vision</h3>
+                    <p class="text-gray-600">To be a centre of academic excellence that produces responsible, innovative, and God-fearing leaders.</p>
+                </div>
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">Our Mission</h3>
+                    <p class="text-gray-600">To provide quality holistic education that empowers students to reach their full potential through discipline, hard work, and innovation.</p>
+                </div>
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">Our Motto</h3>
+                    <p class="text-gray-600 text-2xl font-semibold text-center mt-2">"Elimu na Maendeleo"</p>
+                    <p class="text-gray-500 text-center text-sm mt-1">Education and Development</p>
+                </div>
+            </div>
+
+            <h2 class="text-3xl font-bold text-center mt-16 mb-8">Core Values</h2>
+            <div class="flex grid grid-cols-3 md:grid-cols-3 gap-6 mt-16 justify-center">
+                <div class="text-center">
+                    <div class="grid text-2xl md:text-8xl mb-3">📚</div>
+                    <h4 class="font-bold">Excellence</h4>
+                </div>
+                <div class="text-center">
+                    <div class="grid text-2xl md:text-8xl mb-3">🛡️</div>
+                    <h4 class="font-bold">Discipline</h4>
+                </div>
+                <div class="text-center">
+                    <div class="grid text-2xl md:text-8xl mb-3">🤝</div>
+                    <h4 class="font-bold">Integrity</h4>
+                </div>
+            </div>
+
+            <!-- what sets us -->
+            <h2 class="text-3xl font-bold text-center mt-16 mb-8">What Sets Us Apart</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">A National School with Local Roots</h3>
+                    <p class="text-gray-600">Elevated to National status in July 2025 while remaining deeply rooted in the Wundanyi and wider Taita Taveta community that has supported the school for decades.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">Distinguished Alumni</h3>
+                    <p class="text-gray-600">Our old boys include a retired High Court Judge, respected national broadcasters, a professional rugby international, and elected community leaders. See our <a href="alumni.html" class="text-blue-600 underline">Alumni page</a>.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">Vibrant Community</h3>
+                    <p class="text-gray-600">Dr. Aggrey is deeply intertwined with the local Wundanyi community. The school runs a "Community Class" initiative that uses affirmative action to admit talented boys from local primary schools who may have narrowly missed standard national cut-off scores.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">Holistic Development</h3>
+                    <p class="text-gray-600">We balance strict academic performance with character development and high-level co-curricular achievement, particularly in sport — one of the two pillars that earned our National School status.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">Rebuilding &amp; Renewal</h3>
+                    <p class="text-gray-600">Like many boarding institutions nationally, we have faced recent facility setbacks. The school administration and Board of Management are actively rebuilding affected dormitories and strengthening campus safety systems. See <a href="news.html" class="text-blue-600 underline">Recent Developments</a>.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded shadow">
+                    <h3 class="font-bold text-2xl mb-4 text-blue-600">Discipline and Accountability</h3>
+                    <p class="text-gray-600">Discipline has long been treated as the foundation for success in both academics and extracurricular life at Dr. Aggrey.</p>
+                </div>
+            </div>
+
+            <p class="p-4 text-center text-2xl italic font-light text-gray-400 tracking-tight">At Dr. Aggrey Senior School, we are committed to providing a nurturing environment that fosters academic excellence and personal growth — developing the whole child, so that every learner grows into a responsible and compassionate adult.</p>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+<section class="bg-blue-600 text-white py-10">
+    <div class="container mx-auto px-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+            <div>
+                <h1 class="font-bold text-lg md:text-2xl mb-3">Dr. Aggrey Senior School</h1>
+                <p class="font-light text-xs md:text-sm leading-relaxed">
+                    A National School in Wundanyi, Taita Taveta County. Elimu na Maendeleo — Education and Development.
+                </p>
+            </div>
+
+            <div>
+                <h1 class="font-bold text-lg md:text-xl mb-4">Quick Links</h1>
+                <ul class="space-y-2 text-xs md:text-sm">
+                    <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-yellow-400 transition">About</a></li>
+                    <li><a href="academic.html" class="hover:text-yellow-400 transition">Academics</a></li>
+                    <li><a href="admission.html" class="hover:text-yellow-400 transition">Admissions</a></li>
+                    <li><a href="contact.html" class="hover:text-yellow-400 transition">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h1 class="font-bold text-lg md:text-xl mb-4">Send Message</h1>
+                <form action="">
+                    <div class="mb-3">
+                        <input type="email"
+                               placeholder="Enter your email"
+                               class="w-full p-2.5 md:p-3 rounded-md text-black text-xs md:text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea name="message"
+                                  placeholder="Enter your message"
+                                  class="w-full p-2.5 md:p-3 rounded-md text-black text-xs md:text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 h-20 md:h-28"></textarea>
+                    </div>
+
+                    <button type="submit"
+                            class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2.5 md:py-3 px-4 md:px-6 rounded-md transition w-full text-xs md:text-sm">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <div>
+                <h2 class="font-bold text-lg md:text-xl mb-3">Follow Us</h2>
+                <p class="mb-4 text-xs md:text-sm">Stay connected with us on social media</p>
+
+                <div class="flex space-x-4 text-xl md:text-2xl">
+                    <i class="bi bi-facebook hover:text-yellow-400 cursor-pointer transition"></i>
+                    <i class="bi bi-instagram hover:text-yellow-400 cursor-pointer transition"></i>
+                    <i class="bi bi-twitter hover:text-yellow-400 cursor-pointer transition"></i>
+                    <i class="bi bi-youtube hover:text-yellow-400 cursor-pointer transition"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Copyright -->
+    <section class="bg-blue-700 py-4 text-center text-white text-sm">
+        <p>&copy; 2026 Dr. Aggrey Senior School. All Rights Reserved.</p>
+    </section>
+
+    <script>
+        const menubtn = document.getElementById("menubtn");
+        const mobileMenu = document.getElementById("mobileMenu");
+        menubtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>

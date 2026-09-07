@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Aggrey Senior School | Wundanyi, Taita Taveta</title>
+<meta name="description" content="Dr. Aggrey Senior School (Doc Boys) — a National School in Wundanyi, Taita Taveta County. Elimu na Maendeleo.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<style type="text/tailwindcss">
+.navlinks{
+    @apply hover:text-yellow-400 font-bold transition;
+}
+.mobile-link{
+    @apply block py-2 hover:text-yellow-400 font-bold;
+}
+.card-choose{
+    @apply bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition text-center;
+}
+.icon-choose{
+    @apply text-5xl text-blue-600 mb-4;
+}
+.gallery-image{
+    @apply w-full h-64 object-cover rounded-xl shadow;
+}
+</style>
+</head>
+<body class="bg-gray-100">
+
+<!-- Navbar with Blue → White Gradient -->
+<nav class="text-white shadow-lg sticky top-0 z-50" style="background: linear-gradient(90deg, #2563eb 0%, #ffffff 100%);">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+            
+            <!-- Logo + School Name -->
+            <a href="index.html" class="flex items-center gap-2">
+                <img src="static/images/test.png" alt="School Crest" class="h-10 w-10 rounded">
+                <span class="text-2xl font-bold text-white">Dr. Aggrey Senior School</span>
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-3xl text-blue-800" id="menubtn">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="index.html" class="navlinks text-blue-900">Home</a></li>
+                <li><a href="about.html" class="navlinks text-blue-900">About</a></li>
+                <li><a href="academic.html" class="navlinks text-blue-900">Academics</a></li>
+                <li><a href="facilities.html" class="navlinks text-blue-900">Facilities</a></li>
+                <li><a href="achievements.html" class="navlinks text-blue-900">Achievements</a></li>
+                <li><a href="alumni.html" class="navlinks text-blue-900">Alumni</a></li>
+                <li><a href="news.html" class="navlinks text-blue-900">News</a></li>
+                <li><a href="admission.html" class="navlinks text-blue-900">Admissions</a></li>
+                <li><a href="contact.html" class="navlinks text-blue-900">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden pb-6" id="mobileMenu">
+            <ul class="flex flex-col space-y-4 text-lg">
+                <li><a href="index.html" class="mobile-link text-blue-900">Home</a></li>
+                <li><a href="about.html" class="mobile-link text-blue-900">About</a></li>
+                <li><a href="academic.html" class="mobile-link text-blue-900">Academics</a></li>
+                <li><a href="facilities.html" class="mobile-link text-blue-900">Facilities</a></li>
+                <li><a href="achievements.html" class="mobile-link text-blue-900">Achievements</a></li>
+                <li><a href="alumni.html" class="mobile-link text-blue-900">Alumni</a></li>
+                <li><a href="news.html" class="mobile-link text-blue-900">News</a></li>
+                <li><a href="admission.html" class="mobile-link text-blue-900">Admissions</a></li>
+                <li><a href="contact.html" class="mobile-link text-blue-900">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section style="background-image: url('static/images/test.png');" class="bg-cover bg-center min-h-[100vh] flex items-center relative">
+    <div class="absolute inset-0 bg-black/40"></div>
+    <div class="relative container mx-auto px-4 text-white text-center">
+        <h1 class="text-4xl sm:text-5xl italic md:text-6xl font-bold leading-tight">
+            Dr. Aggrey Senior School
+        </h1>
+        <p class="mt-2 text-lg md:text-xl font-light">"Dr Boys" of the Taita Hills &middot; Wundanyi, Taita Taveta County</p>
+        <p class="mt-4 text-xl md:text-2xl">committed to excellence </p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="about.html" class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold text-lg py-4 px-10 rounded-full inline-block transition">
+                About Our School
+            </a>
+            <a href="admission.html" class="bg-white/10 border-2 border-white hover:bg-white hover:text-black text-white font-bold text-lg py-4 px-10 rounded-full inline-block transition">
+                Admissions
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">Why Choose Us</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+        <div class="card-choose">
+            <i class="bi bi-award icon-choose"></i>
+            <h3 class="font-bold text-xl mb-2">A National School</h3>
+            <p class="text-gray-600">Elevated to National School status on 26 July 2025, in recognition of our academic and sporting achievements.</p>
+        </div>
+        <div class="card-choose">
+            <i class="bi bi-mortarboard icon-choose"></i>
+            <h3 class="font-bold text-xl mb-2">Three CBC Pathways</h3>
+            <p class="text-gray-600">STEM, Social Sciences, and Arts &amp; Sports Science for our Grade 10–12 Senior School learners.</p>
+        </div>
+        <div class="card-choose">
+            <i class="bi bi-people icon-choose"></i>
+            <h3 class="font-bold text-xl mb-2">A Legacy of Leaders</h3>
+            <p class="text-gray-600">Our alumni include a retired High Court Judge, national broadcasters, and a professional international rugby player.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Preview -->
+<section class="bg-white py-16">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">About Our School</h2>
+        <p class="max-w-3xl mx-auto text-gray-700 text-lg leading-relaxed">
+            Dr. Aggrey Senior School sits about 200 metres from Wundanyi town in the scenic Taita Hills.
+            Named after the pioneering Ghanaian educationist Dr. James Emman Kwegyir Aggrey, the school has
+            grown from a county institution into a <strong>National School</strong>, currently home to roughly
+            2,000 boys across Grades 10–12 under Kenya's Competency-Based Curriculum.
+        </p>
+        <a href="about.html" class="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition">
+            Learn More About Us →
+        </a>
+    </div>
+</section>
+
+<!-- Quick Facts -->
+<section class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">Dr. Aggrey at a Glance</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="text-3xl font-bold text-blue-600">~2,000</h3>
+            <p class="text-sm text-gray-600 mt-1">Students Enrolled</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="text-3xl font-bold text-blue-600">C1</h3>
+            <p class="text-sm text-gray-600 mt-1">National School Cluster</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="text-3xl font-bold text-blue-600">3</h3>
+            <p class="text-sm text-gray-600 mt-1">CBC Pathways Offered</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="text-3xl font-bold text-blue-600">2025</h3>
+            <p class="text-sm text-gray-600 mt-1">Year of National Elevation</p>
+        </div>
+    </div>
+    <!-- <p class="text-center text-xs text-gray-400 mt-4">Figures from public examination and school-classification records — see our Academics page for the full performance history.</p> -->
+</section>
+
+<!-- Gallery -->
+<section class="container mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">School Gallery</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+        <div>
+            <img src="static/images/cel.jpeg" alt="Students Learning" class="gallery-image">
+            <p class="text-center mt-3 font-medium">unveiled the national school status of Dr. Aggrey Boys National School!  A testament to stellar academic and sports performance! </p>
+        </div>
+        <div>
+            <img src="static/images/basketball.jpeg" alt="School Activities" class="gallery-image">
+            <p class="text-center mt-3 font-medium">Congratulations DR. Aggrey Boys High School  for qualifying in the East Africa championship for Secondary School Games</p>
+        </div>
+        <div>
+            <img src="static/images/8.6.jpeg" alt="Classroom" class="gallery-image">
+            <p class="text-center mt-3 font-medium">Dr. Aggrey Boys National School continues to excel in academics as they strive for excellence in all areas of learning.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="bg-blue-600 text-white py-10">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div>
+                <h1 class="font-bold text-lg md:text-2xl mb-3">Dr. Aggrey Senior School</h1>
+                <p class="font-light text-xs md:text-sm leading-relaxed">
+                    A National School in Wundanyi, Taita Taveta County. commited to excellence in academics, sports, and leadership development.
+                </p>
+            </div>
+            <div>
+                <h1 class="font-bold text-lg md:text-xl mb-4">Quick Links</h1>
+                <ul class="space-y-2 text-xs md:text-sm">
+                    <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-yellow-400 transition">About</a></li>
+                    <li><a href="academic.html" class="hover:text-yellow-400 transition">Academics</a></li>
+                    <li><a href="admission.html" class="hover:text-yellow-400 transition">Admissions</a></li>
+                    <li><a href="contact.html" class="hover:text-yellow-400 transition">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-bold text-lg md:text-xl mb-4">Send Message</h1>
+                <form action="">
+                    <div class="mb-3">
+                        <input type="email" placeholder="Enter your email" class="w-full p-2.5 md:p-3 rounded-md text-black text-xs md:text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="message" placeholder="Enter your message" class="w-full p-2.5 md:p-3 rounded-md text-black text-xs md:text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 h-20 md:h-28"></textarea>
+                    </div>
+                    <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2.5 md:py-3 px-4 md:px-6 rounded-md transition w-full text-xs md:text-sm">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+            <div>
+                <h2 class="font-bold text-lg md:text-xl mb-3">Follow Us</h2>
+                <p class="mb-4 text-xs md:text-sm">Stay connected with us on social media</p>
+                <div class="flex space-x-4 text-xl md:text-2xl">
+                    <i class="bi bi-facebook hover:text-yellow-400 cursor-pointer transition"></i>
+                    <i class="bi bi-instagram hover:text-yellow-400 cursor-pointer transition"></i>
+                    <i class="bi bi-twitter hover:text-yellow-400 cursor-pointer transition"></i>
+                    <i class="bi bi-youtube hover:text-yellow-400 cursor-pointer transition"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Copyright -->
+<section class="bg-blue-700 py-4 text-center text-white text-sm">
+    <p>&copy; 2026 Dr. Aggrey Senior School. All Rights Reserved.</p>
+</section>
+
+<script>
+const menubtn = document.getElementById("menubtn");
+const mobileMenu = document.getElementById("mobileMenu");
+menubtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+});
+</script>
+
+</body>
+</html>
